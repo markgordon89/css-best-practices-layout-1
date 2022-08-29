@@ -4,9 +4,17 @@
 
 .container {
     border: 4px solid black;
-    padding: 24px 24px 0 24px;
+    padding: 80px 24px 80px 24px;
+    
+}
+
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto -24px auto;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .box {
@@ -18,9 +26,19 @@
     height: 50px;
 }
 
+.box-tiny {
+    width: 30%;
+    height: 50px;
+}
+
+.tiny-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 .box-wrapper {
     width: 45%;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 .box-large {
 width: 45%;
